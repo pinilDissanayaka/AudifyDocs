@@ -4,6 +4,13 @@ from groq import Groq
 
 os.environ['GROQ_API_KEY']=st.secrets['GROQ_API_KEY']
 
+def save_voice_on_dir(folder, voice_file, format=".wav"):
+    
+    with open(voice_file, "wb") as music_file:
+        
+        
+    
+
 def voice_to_text(voice_file): 
     client=Groq()
     
